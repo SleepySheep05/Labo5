@@ -1,41 +1,50 @@
 #conteneur
 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    background-color: aquamarine;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 50px 50px 100px 100px 50px;
     grid-template-areas: 
     "head head"
     "nav nav"
     "aside main"
     "aside main"
     "foot foot";
-    grid-gap: 4px 4px;
+    grid-gap: 2px 2px;
+    width: 50%;
+margin-left: 25%;
 }
 header
 {
     grid-area: head;
     width: 100%;
-
-
+    background-color: aquamarine;
+    text-indent: 10px;
 }
 nav
 {
     grid-area: nav;
     width: 100%;
+    background-color: aquamarine;
+    text-indent: 10px;
 }
 aside
 {
     grid-area: aside;
     width: 100%;
+    background-color: aquamarine;
+    text-indent: 10px;
 }
 main
 {
     grid-area: main;
     width: 100%;
+    background-color: aquamarine;
+    text-indent: 10px;
 }
 footer
 {
     grid-area: foot;
     width: 100%;
+    background-color: aquamarine;
+    text-indent: 10px;
 }
