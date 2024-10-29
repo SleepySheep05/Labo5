@@ -1,0 +1,41 @@
+#conteneur
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: aquamarine;
+    grid-template-areas: 
+    "head head"
+    "nav nav"
+    "aside main"
+    "aside main"
+    "foot foot";
+    grid-gap: 4px 4px;
+}
+header
+{
+    grid-area: head;
+    width: 100%;
+
+
+}
+nav
+{
+    grid-area: nav;
+    width: 100%;
+}
+aside
+{
+    grid-area: aside;
+    width: 100%;
+}
+main
+{
+    grid-area: main;
+    width: 100%;
+}
+footer
+{
+    grid-area: foot;
+    width: 100%;
+}
